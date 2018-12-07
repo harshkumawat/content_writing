@@ -12,3 +12,42 @@ body {
   height: 100vh;
   width: auto;
   }
+
+.startup h1 {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255,0.8);
+  font-weight: bold;
+  padding-top: 135px;
+}
+
+hr {
+  border-width: 5px;
+  background-color: #F05F44;
+}
+
+.startup h1::after {
+  width: 100px;
+  height: 5px;
+  content: " ";
+  display: block;
+  margin-top: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #F05F44;
+}
+
+.btn-more {
+  background-color: #F05F44;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: rgba(255, 255, 255,0.8);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 250px;
+}
+
+.btn-more:hover {
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
